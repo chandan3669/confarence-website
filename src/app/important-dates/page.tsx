@@ -40,7 +40,7 @@ export default function ImportantDatesPage() {
           <div>
             <h3 className="font-bold text-amber-900 text-base">Paper Submission Window is Live!</h3>
             <p className="text-sm text-amber-800 mt-1 leading-relaxed">
-              Full manuscripts must be submitted before <span className="font-semibold underline">October 31, 2026 (23:59 IST)</span> through Microsoft CMT. Due to strict peer-review schedules, no extensions will be granted beyond the hard deadline.
+              Full manuscripts must be submitted before <span className="font-semibold underline">October 31, 2027 (23:59 IST)</span> through Microsoft CMT. Due to strict peer-review schedules, no extensions will be granted beyond the hard deadline.
             </p>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function ImportantDatesPage() {
             </li>
             <li className="flex items-start gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-              <span>At least one author must complete full author registration by <strong>December 05, 2026</strong> for inclusion in the proceedings volume.</span>
+              <span>At least one author must complete full author registration by <strong>December 05, 2027</strong> for inclusion in the proceedings volume.</span>
             </li>
             <li className="flex items-start gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />

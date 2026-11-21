@@ -88,7 +88,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
-            &copy; 2026 {CONFERENCE_INFO.name}. Hosted by {CONFERENCE_INFO.institution}.
+            &copy; 2027 {CONFERENCE_INFO.name}. Hosted by {CONFERENCE_INFO.institution}.
           </div>
           <div className="flex items-center gap-3">
             <span>Springer LNAI / CCIS Volume</span>

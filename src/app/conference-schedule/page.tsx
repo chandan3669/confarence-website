@@ -12,7 +12,7 @@ export default function ConferenceSchedulePage() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-400/20 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-4">
             <Clock className="w-3.5 h-3.5" />
-            20–21 December 2026
+            20–21 December 2027
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4 text-white">
             Conference Schedule & Program

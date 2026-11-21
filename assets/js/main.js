@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // 2. Countdown Timer
-  // Set submission deadline: e.g. Oct 31, 2026 or dynamic target
-  const targetDate = new Date("October 31, 2026 23:59:59 GMT+05:30").getTime();
+  // Set submission deadline: e.g. Oct 31, 2027 or dynamic target
+  const targetDate = new Date("October 31, 2027 23:59:59 GMT+05:30").getTime();
 
   function updateTimer() {
     const now = new Date().getTime();

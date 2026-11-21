@@ -32,7 +32,7 @@ const NAV_LINKS = [
     label: "For Authors",
     href: "/call-for-papers",
     dropdown: [
-      { label: "Research Tracks (5 Tracks)", href: "/call-for-papers" },
+      { label: "Research Tracks (8 Tracks)", href: "/call-for-papers" },
       { label: "Submission Guidelines", href: "/paper-submission" },
       {
         label: "Springer Word Template",

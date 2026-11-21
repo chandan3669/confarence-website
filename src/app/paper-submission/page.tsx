@@ -40,7 +40,7 @@ export default function PaperSubmissionPage() {
             <span className="text-emerald-400 text-xs font-bold uppercase tracking-wider">Submission Portal Active</span>
             <h2 className="text-2xl font-bold mt-1 text-white">Ready to submit your manuscript?</h2>
             <p className="text-slate-300 text-sm mt-2 max-w-xl">
-              Upload your double-blind PDF manuscript to Microsoft CMT before <strong>October 31, 2026</strong>.
+              Upload your double-blind PDF manuscript to Microsoft CMT before <strong>October 31, 2027</strong>.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 shrink-0">
@@ -175,12 +175,12 @@ export default function PaperSubmissionPage() {
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 text-center">
               <div className="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-xs mx-auto mb-2">3</div>
               <h5 className="font-bold text-sm text-slate-900">Decision & Notification</h5>
-              <p className="text-xs text-slate-500 mt-1">Accept, Revision, or Reject verdict sent by November 15, 2026.</p>
+              <p className="text-xs text-slate-500 mt-1">Accept, Revision, or Reject verdict sent by November 15, 2027.</p>
             </div>
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 text-center">
               <div className="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold text-xs mx-auto mb-2">4</div>
               <h5 className="font-bold text-sm text-slate-900">Camera Ready & Registration</h5>
-              <p className="text-xs text-slate-500 mt-1">Submit Springer copyright and final PDF by November 30, 2026.</p>
+              <p className="text-xs text-slate-500 mt-1">Submit Springer copyright and final PDF by November 30, 2027.</p>
             </div>
           </div>
         </div>

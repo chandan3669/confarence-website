@@ -108,7 +108,7 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/30 text-sm font-semibold px-6 py-3.5 rounded-full backdrop-blur-sm transition-all"
             >
               <ListFilter className="w-4 h-4" />
-              Explore 5 Tracks & 23 Topics
+              Explore 8 Tracks & 62 Topics
             </Link>
 
             <Link
@@ -132,7 +132,7 @@ export default function HomePage() {
             </div>
 
             <div className="p-3 border-r border-slate-100 last:border-none">
-              <span className="block text-2xl md:text-3xl font-extrabold text-primary">05 / 23</span>
+              <span className="block text-2xl md:text-3xl font-extrabold text-primary">08 / 62</span>
               <span className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Research Tracks & Topics</span>
             </div>
 
@@ -177,7 +177,7 @@ export default function HomePage() {
               <h3 className="text-lg font-bold text-navy-text">Shri Jagannath Gupta</h3>
               <p className="text-xs text-primary font-semibold mb-3">Chairman, BBIT & Jagannath Gupta Family Trust</p>
               <p className="text-xs text-slate-500 leading-relaxed italic">
-                "BBIT is dedicated to pioneering world-class academic platforms. QINS-2026 unites international scholars at the frontier of quantum computation, intelligent systems, and cybersecurity."
+                "BBIT is dedicated to pioneering world-class academic platforms. QINS-2027 unites international scholars at the frontier of quantum computation, intelligent systems, and cybersecurity."
               </p>
             </div>
 
@@ -207,14 +207,14 @@ export default function HomePage() {
               <h3 className="text-lg font-bold text-navy-text">Prof. Anirban Bandyopadhyay</h3>
               <p className="text-xs text-primary font-semibold mb-3">Senior Scientist, NIMS, Japan</p>
               <p className="text-xs text-slate-500 leading-relaxed italic">
-                "QINS-2026 focuses on variational quantum algorithms, quantum neural networks, and secure distributed ledgers, opening new paradigms for computation."
+                "QINS-2027 focuses on variational quantum algorithms, quantum neural networks, and secure distributed ledgers, opening new paradigms for computation."
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5 Core Research Tracks Section */}
+      {/* 8 Core Research Tracks Section */}
       <section className="py-16 bg-white" id="tracks">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-12">
@@ -222,7 +222,7 @@ export default function HomePage() {
               Call for Papers
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-navy-text mb-3">
-              5 Research Tracks & 23 Sub-Topics
+              8 Research Tracks & 62 Sub-Topics
             </h2>
             <div className="w-14 h-1 bg-primary mx-auto rounded mb-4" />
             <p className="text-slate-600 text-sm">

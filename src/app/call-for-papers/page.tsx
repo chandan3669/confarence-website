@@ -1,20 +1,23 @@
 import { Metadata } from "next";
 import { CONFERENCE_INFO, TRACKS } from "@/lib/constants";
-import { Layers, FileText, CheckCircle, ArrowRight, Download, Atom, Cpu, Share2, Network, Lock } from "lucide-react";
+import { Layers, FileText, CheckCircle, ArrowRight, Download, Atom, Cpu, Share2, Network, Lock, Server, Database, Code2, Sparkles } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: `Call for Papers & 5 Research Tracks | ${CONFERENCE_INFO.name}`,
-  description: `Explore the 5 specialized tracks and 23 research topics in Quantum Computing, AI, Graph Science, Distributed Systems & Cryptography for ${CONFERENCE_INFO.fullName}.`,
+  title: `Call for Papers & 8 Research Tracks | ${CONFERENCE_INFO.name}`,
+  description: `Explore the 8 specialized tracks and 62 research topics in AI, Quantum Computing, Cybersecurity, IoT, Advanced Computing, Networks, Data Science & Emerging Tech for ${CONFERENCE_INFO.fullName}.`,
 };
 
 export default function CallForPapersPage() {
   const trackIcons = [
-    <Atom key="1" className="w-6 h-6 text-emerald-600" />,
-    <Cpu key="2" className="w-6 h-6 text-indigo-600" />,
-    <Share2 key="3" className="w-6 h-6 text-cyan-600" />,
+    <Cpu key="1" className="w-6 h-6 text-indigo-600" />,
+    <Atom key="2" className="w-6 h-6 text-emerald-600" />,
+    <Lock key="3" className="w-6 h-6 text-rose-600" />,
     <Network key="4" className="w-6 h-6 text-amber-600" />,
-    <Lock key="5" className="w-6 h-6 text-rose-600" />,
+    <Server key="5" className="w-6 h-6 text-blue-600" />,
+    <Share2 key="6" className="w-6 h-6 text-cyan-600" />,
+    <Database key="7" className="w-6 h-6 text-violet-600" />,
+    <Sparkles key="8" className="w-6 h-6 text-fuchsia-600" />,
   ];
 
   return (
@@ -27,10 +30,10 @@ export default function CallForPapersPage() {
             Research Scope & Submissions
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4 text-white">
-            Call for Papers (5 Technical Tracks)
+            Call for Papers (8 Technical Tracks)
           </h1>
           <p className="text-slate-300 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
-            The International Conference on Quantum Intelligence, Networks & Secure Systems ({CONFERENCE_INFO.name}) invites original, unpublished research papers across 5 cutting-edge tracks and 23 specialized topics.
+            The International Conference on Quantum Intelligence, Networks & Secure Systems ({CONFERENCE_INFO.name}) invites original, unpublished research papers across 8 cutting-edge tracks and 62 specialized topics.
           </p>
           <div className="flex items-center justify-center gap-2 mt-6 text-xs text-slate-400">
             <Link href="/" className="hover:text-emerald-400 transition">Home</Link>
@@ -98,11 +101,11 @@ export default function CallForPapersPage() {
           </div>
         </div>
 
-        {/* 5 Technical Tracks Grid */}
+        {/* 8 Technical Tracks Grid */}
         <div className="text-center mb-10">
           <span className="text-emerald-600 font-bold text-sm uppercase tracking-wider">Core Research Domains</span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-            5 Tracks & 23 Sub-Topics
+            8 Tracks & 62 Sub-Topics
           </h2>
           <div className="w-16 h-1 bg-[#5da834] mx-auto mt-3 rounded-full"></div>
         </div>

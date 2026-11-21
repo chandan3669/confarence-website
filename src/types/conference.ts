@@ -11,7 +11,7 @@ export interface Track {
   id: number;
   number: string;
   title: string;
-  category: "ai" | "security" | "iot" | "computing";
+  category: "quantum" | "ai" | "security" | "iot" | "computing" | "networks" | "data" | "software" | "emerging" | string;
   topics: string[];
 }
 
